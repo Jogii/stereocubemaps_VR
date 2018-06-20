@@ -76,6 +76,7 @@
 			for ( var i = 0; i < tilesNum; i ++ ) {
 
 				textures[ i ] = new THREE.Texture();
+				textures[ i ].minFilter = THREE.LinearFilter;
 
 			}
 
